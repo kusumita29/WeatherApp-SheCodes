@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1b5cf27921.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="header">Weather App</div>
+    <div class="search-sec">
+       
+        
+        <div class="search-bar">
+            <input class = search-bar-value type="text" placeholder="Search for a city ... ">
+        </div>
+        <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div class="dummy"></div>
+        <div class="curr-location">
+            <button class="current-button">Current City</button>
+        </div>
+        <div class="dummy"></div>
+    </div> 
+    <div class="curr">
+        <div class="curr-1">
+            <div class="curr-city">Kolkata</div>
+            <div class="curr-date">April 1, 2022</div>  
+            <div class="curr-time">Monday 19:58</div>
+        </div>
+        <!-- <div class="dummy"></div> -->
+        <div class="curr-weather-details">
+            <div class="curr-2">
+                <div class="temp-in-curr-scale">
+                    <div class="curr-temp">32°</div>
+                    <div class="scale">
+                        <div class="degree-div"><button class="degree-button">C</button></div>
+                    </div>
+                </div>
+                <div class="range-temp">23°/34°</div>
+            </div>
+            
+            <div class="curr-3">
+                <div class="curr-emoji"><img id="image" src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather icon"></div>
+                <div class="curr-weather">Clear</div>
+            </div>
+        </div> 
+    </div>
+    <br>
+    <div class="forecast">
+        <div class="next">
+            <div class="next-day">Tuesday</div>
+            <div class="next-emoji">🌥️</div>
+            <div class="next-temp">23°/32°</div>
+        </div>
+        <div class="next">
+            <div class="next-day">Wednesday</div>
+            <div class="next-emoji">🌧️</div>
+            <div class="next-temp">23°/32°</div>
+        </div>
+        <div class="next">
+            <div class="next-day"> Thursday</div>
+            <div class="next-emoji">☀️</div>
+            <div class="next-temp">23°/32°</div>
+        </div>
+        <div class="next">
+            <div class="next-day">Friday</div>
+            <div class="next-emoji">☁️</div>
+            <div class="next-temp">23°/32°</div>
+        </div>
+        <div class="next">
+            <div class="next-day">Saturday</div>
+            <div class="next-emoji">⛈️</div>
+            <div class="next-temp">23°/32°</div>
+        </div>
+    </div>
+    <script type="text/javascript" src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

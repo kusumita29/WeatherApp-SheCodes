@@ -1,0 +1,177 @@
+body{
+    background-color: #F3E8FF;
+}
+.search-sec{
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.header{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 20px;
+    text-align: center;
+    background-color: #6096B4;
+    color: #F3E8FF;
+}
+
+.search-button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.search-button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 2px 2px grey;
+    cursor: pointer;
+}
+
+.search-button:active{
+    box-shadow: none;
+}
+
+.current-button{
+    background-color: #6096B4;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.current-button:hover{
+    background-color: #6096B4;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 2px 2px grey;
+    cursor: pointer;
+}
+
+.current-button:active{
+    box-shadow: none;
+}
+
+.search-bar input{
+    padding: 8px 80px 8px 8px;
+    font-size: 15px;
+    background-color: #F3E8FF;
+}
+
+.dummy{
+    /* background-color: blue; */
+    padding:1px 50px;
+}
+
+.curr{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.curr-1{
+    margin-left: 100px;
+}
+
+.curr-2{
+    margin-right: 150px;
+    
+}
+.curr-city{
+    font-size: 60px;
+    padding: 0 0 15px 0;
+}
+
+.curr-date, .curr-time{
+    font-size: 30px;
+    padding: 3px 0 0 0;
+}
+
+.curr-emoji{
+    font-size: 80px;
+    padding: 5px 0;
+}
+
+.curr-weather{
+    font-size: 40px;
+}
+
+.curr-temp{
+    font-size: 80px;
+}
+
+.range-temp{
+    font-size: 40px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.scale{
+    padding: 20px 10px;
+}
+
+.temp-in-curr-scale{
+    display: flex;
+}
+
+.degree-button{
+    border-radius: 5px;
+    border: none;
+    background-color: #BDCDD6;
+    padding: 5px 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 1px rgb(153, 156, 159);
+}
+
+.degree-button:hover{
+    background-color: #93BFCF;
+    cursor: pointer;
+}
+
+.degree-button:active{
+    background-color: #93BFCF;
+    box-shadow: 2px 2px 1px rgb(83, 85, 86);
+}
+
+.curr-3{
+    text-align: center;
+    margin-right: 100px;
+}
+
+.curr-weather-details{
+    display: flex;
+}
+
+
+.forecast{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+    flex: 0 0 100px !important;
+   
+}
+
+.next{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #A0C3D2;
+    box-shadow: 2px 2px 1px rgb(124, 135, 97);
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    width: 100% !important;
+}
+.next-day{
+    padding: 0 0 30px 0;
+    font-weight: bold;
+}
+.next-emoji{
+    font-size: 50px;
+    padding: 10px;
+}
