@@ -168,10 +168,19 @@ body{
     width: 100% !important;
 }
 .next-day{
-    padding: 0 0 30px 0;
+    padding: 0 0 15px 0;
     font-weight: bold;
 }
 .next-emoji{
     font-size: 50px;
     padding: 10px;
+}
+
+a{
+    color: #6096B4;
+    text-decoration: none;
+}
+
+.github{
+    text-align: center;
 }
